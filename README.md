@@ -67,7 +67,7 @@ To flash a bin file to the board do the following:
 3. Burn image: `st-flash write build/SW-UPDATE.bin 0x08000000` 
 
 To read the flash content do: `st-flash read myFlash  0x08000000 0x1000`
-It will read into ***myFlash*** bin file from 0x08000000 address, 4096 bytes.
+It will read into ***myFlash*** file from 0x08000000 address, 4096 bytes.
 
 To view them use: `cat myFlash |hd` or `xxd myFlash`
 
